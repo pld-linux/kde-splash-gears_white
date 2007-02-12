@@ -1,7 +1,7 @@
 %define		_splash		gears_white
 
 Summary:	KDE splash screens
-Summary(pl):	Ekrany startowe KDE
+Summary(pl.UTF-8):   Ekrany startowe KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
@@ -35,9 +35,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 "White background" edition of "Gears" splash screen collection.
 Contains six different versions.
 
-%description -l pl
-Kolekcja ekranów startowych "Gears", edycja z bia³ym t³em. Zawiera
-sze¶æ ró¿nych wersji.
+%description -l pl.UTF-8
+Kolekcja ekranÃ³w startowych "Gears", edycja z biaÅ‚ym tÅ‚em. Zawiera
+szeÅ›Ä‡ rÃ³Å¼nych wersji.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash} -a1 -a2 -a3 -a4 -a5
