@@ -1,7 +1,7 @@
 %define		_splash		gears_white
 
 Summary:	KDE splash screens
-Summary(pl.UTF-8):   Ekrany startowe KDE
+Summary(pl.UTF-8):	Ekrany startowe KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
